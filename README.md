@@ -30,16 +30,42 @@ O script `main.py` foi projetado com foco em **modularidade e legibilidade**, se
 ## Como Executar o Projeto ☆☆☆
 
 ### Pré-requisitos
-Para rodar o jogo, você precisa apenas do **Python 3.x** instalado em sua máquina (sem necessidade de instalação de dependências externas, utilizando estritamente a *Standard Library*).
+Para rodar o jogo, você precisa apenas do **Python 3.x** instalado em sua máquina ou dispositivo (sem necessidade de instalar dependências externas, utilizando estritamente a *Standard Library*).
 
-### Passo a Passo
-1. Clone este repositório ou baixe o arquivo `main.py`.
-2. Abra o terminal (ou prompt de comando) na pasta onde o arquivo foi salvo.
-3. Execute o programa com o seguinte comando:
-   ```bash
-   python main.py
+---
 
-(Compatível também com o ambiente Pydroid 3 em dispositivos Android).
+### No Computador (Windows / Linux / macOS) ☆☆☆
+
+1. **Baixar o código:** Clone este repositório ou baixe o arquivo `main.py`.
+2. **Abrir o Terminal:** Acesse a pasta onde o arquivo foi salvo no seu Terminal (Linux/macOS) ou Prompt de Comando / PowerShell (Windows).
+3. **Executar o script:**
+   * **Windows:**
+     ```bash
+     python main.py
+     ```
+   * **Linux / macOS:**
+     ```bash
+     python3 main.py
+     ```
+
+---
+
+### No Celular (Android / iOS) ☆☆☆
+
+#### Android (Via Pydroid 3)
+1. Baixe o arquivo `main.py` para a pasta **Downloads** do celular.
+2. Baixe o app **Pydroid 3** na Google Play Store.
+3. Abra o Pydroid 3, toque no ícone de **Pasta** ➔ **Open...** e selecione o arquivo `main.py`.
+4. Toque no botão amarelo de **Play** (triângulo) no canto inferior direito para jogar.
+
+#### iOS / iPhone (Via Pyto ou a-Shell)
+1. Baixe o arquivo `main.py` e salve-o no aplicativo **Arquivos** (*No Meu iPhone*).
+2. Baixe o app **Pyto** ou **a-Shell** na App Store.
+3. **No Pyto:** Abra o app, selecione o arquivo `main.py` e toque em **Play**.
+4. **No a-Shell:** Digite `pickFolder` para selecionar a pasta do arquivo e rode o comando `python main.py`.
+
+> 💡 **Dica de jogabilidade no celular:** Quando o jogo solicitar `[Pressione Enter]`, basta utilizar a tecla **Enter / Ir / Return** do teclado virtual do seu dispositivo.
+
 Guia de Testes dos Finais ☆☆☆
 
 Para validar o funcionamento da árvore de decisões e testar a integridade de todos os textos, siga as rotas abaixo durante a execução:
@@ -52,4 +78,4 @@ Para validar o funcionamento da árvore de decisões e testar a integridade de t
 
 Autoria ☆☆☆
 
-    Desenvolvido por: Lya
+    Desenvolvido por: Kurolaladev
