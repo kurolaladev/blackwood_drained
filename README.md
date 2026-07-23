@@ -29,8 +29,14 @@ O script `main.py` foi projetado com foco em **modularidade e legibilidade**, se
 
 ## Como Executar o Projeto ☆☆☆
 
-### Pré-requisitos
-Para rodar o jogo, você precisa apenas do **Python 3.x** instalado em sua máquina ou dispositivo (sem necessidade de instalar dependências externas, utilizando estritamente a *Standard Library*).
+### Jogar Direto no Navegador (Itch.io)
+Se preferir jogar de forma instantânea sem baixar nada, você pode acessar a versão web hospedada na plataforma:
+👉 **[Jogue Blackwood: Drained no Itch.io](https://kurolaladev.itch.io/blackwood-drained)**
+
+---
+
+### Pré-requisitos (Versão Local)
+Para rodar o jogo localmente, você precisa apenas do **Python 3.x** instalado em sua máquina ou dispositivo (sem necessidade de instalar dependências externas, utilizando estritamente a *Standard Library*).
 
 ---
 
@@ -46,36 +52,4 @@ Para rodar o jogo, você precisa apenas do **Python 3.x** instalado em sua máqu
    * **Linux / macOS:**
      ```bash
      python3 main.py
-     ```
-
----
-
-### No Celular (Android / iOS) ☆☆☆
-
-#### Android (Via Pydroid 3)
-1. Baixe o arquivo `main.py` para a pasta **Downloads** do celular.
-2. Baixe o app **Pydroid 3** na Google Play Store.
-3. Abra o Pydroid 3, toque no ícone de **Pasta** ➔ **Open...** e selecione o arquivo `main.py`.
-4. Toque no botão amarelo de **Play** (triângulo) no canto inferior direito para jogar.
-
-#### iOS / iPhone (Via Pyto ou a-Shell)
-1. Baixe o arquivo `main.py` e salve-o no aplicativo **Arquivos** (*No Meu iPhone*).
-2. Baixe o app **Pyto** ou **a-Shell** na App Store.
-3. **No Pyto:** Abra o app, selecione o arquivo `main.py` e toque em **Play**.
-4. **No a-Shell:** Digite `pickFolder` para selecionar a pasta do arquivo e rode o comando `python main.py`.
-
-> 💡 **Dica de jogabilidade no celular:** Quando o jogo solicitar `[Pressione Enter]`, basta utilizar a tecla **Enter / Ir / Return** do teclado virtual do seu dispositivo.
-
-Guia de Testes dos Finais ☆☆☆
-
-Para validar o funcionamento da árvore de decisões e testar a integridade de todos os textos, siga as rotas abaixo durante a execução:
-
-    Final Ruim (Derrota): Escolha [1] Consultar contatos na investigação ➔ Escolha [2] Ignorar e seguir viagem na estrada.
-
-    Final Neutro (O Abismo): Escolha [1] Consultar contatos na investigação ➔ Escolha [1] Frear bruscamente na estrada.
-
-    Final Bom (Sucesso): Escolha [2] Investigar a vida da vítima na investigação ➔ Siga a rota da Igreja.
-
-Autoria ☆☆☆
-
-    Desenvolvido por: Kurolaladev
+     
